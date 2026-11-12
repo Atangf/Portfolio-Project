@@ -8,12 +8,14 @@ import components.standard.Standard;
  * Everything else is defined in {@code Scoreboard} and implemented using
  * only these methods.
  *
- * @mathmodel type ScoreboardKernal is modeled by (home: integer, guest: integer)
- * @constraint home >= 0 and guest >= 0
- * @initially <pre>
+ * @mathdefinitions ScoreboardKernal is modeled by (home: integer, guest: integer)
+ * @@requires home >= 0 and guest >= 0
+ * @ensures <pre>
  * ():
- *  ensures this = (0, 0)
+ *  initally this = (0, 0)
  * </pre>
+ *
+ * @author  Atang Fontem
  */
 public interface ScoreboardKernal extends Standard<Scoreboard> {
 
@@ -26,7 +28,7 @@ public interface ScoreboardKernal extends Standard<Scoreboard> {
      * @requires points >= 0
      * @ensures this = (#this.home + points, #this.guest)
      */
-    void addToHome(int points);
+    void addHome(int points);
 
     /**
      * Adds a specific number of points to the guest team's score.
@@ -37,7 +39,7 @@ public interface ScoreboardKernal extends Standard<Scoreboard> {
      * @requires points >= 0
      * @ensures this = (#this.home, #this.guest + points)
      */
-    void addToGuest(int points);
+    void addGuest(int points);
 
     /**
      * Reports the home team's score.

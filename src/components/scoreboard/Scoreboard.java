@@ -1,15 +1,16 @@
 package components.scoreboard;
 
 /**
- * Scoreboard component for a two-team game. Extends {@code ScoreboardKernal}
- * with secondary methods that are implemented using only kernel methods.
+ * Scoreboard component for a two team game. Extends {@code ScoreboardKernal}
+ * with secondary methods that are implemented using only the kernel methods.
  *
- * @mathmodel type Scoreboard is modeled by (home: integer, guest: integer)
- * @constraint home >= 0 and guest >= 0
- * @initially <pre>
- * ():
- *  ensures this = (0, 0)
+ * @mmathdefinitions Scoreboard is modeled by (home: integer, guest: integer)
+ * @requires home >= 0 and guest >= 0
+ * @ensures <pre>
+ * intially this = (0, 0)
  * </pre>
+ *
+ * @author  Atang Fontem
  */
 public interface Scoreboard extends ScoreboardKernal {
 
