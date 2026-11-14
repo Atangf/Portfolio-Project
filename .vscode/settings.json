@@ -1,7 +1,7 @@
 {
     "better-todo-tree.general.showActivityBarBadge": true,
     "better-todo-tree.tree.showCountsInTree": true,
-    "chat.disableAIFeatures": true,
+    "chat.disableAIFeatures": false,
     "code-runner.showRunIconInEditorTitleMenu": false,
     "editor.rulers": [
         80,
@@ -41,4 +41,5 @@
     "markdown-pdf.outputDirectory": "",
     "markdown-pdf.highlightStyle": "a11y-light.css",
     "print.sourcecode.colourScheme": "A11 Y",
+    "java.jdt.ls.vmargs": "-XX:+UseParallelGC -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Dsun.zip.disableMemoryMapping=true -Xmx4G -Xms100m -Xlog:disable",
 }
