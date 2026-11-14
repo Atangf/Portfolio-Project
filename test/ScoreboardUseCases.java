@@ -29,11 +29,6 @@ public final class ScoreboardUseCases {
     private static final int TWENTY = 20;
 
     /**
-     * The number 21, used as a football score.
-     */
-    private static final int TWENTY_ONE = 21;
-
-    /**
      * Private constructor so this utility class cannot be instantiated.
      */
     private ScoreboardUseCases() {
@@ -101,26 +96,6 @@ public final class ScoreboardUseCases {
     }
 
     /**
-     * Use case 4: resetting and moving scoreboards around.
-     */
-    private static void resetAndTransfer() {
-        Scoreboard first = new Scoreboard1();
-        first.addHome(TWENTY_ONE);
-        first.addGuest(FOURTEEN);
-
-        Scoreboard second = first.newInstance(); // new empty scoreboard
-        second.transferFrom(first); // move the score over
-
-        System.out.println("Use case 4:");
-        System.out.println("first:  " + first); // (0, 0)
-        System.out.println("second: " + second); // (21, 14)
-
-        second.clear();
-        System.out.println("cleared: " + second); // (0, 0)
-        System.out.println("");
-    }
-
-    /**
      * Runs all of the use cases.
      *
      * @param args
@@ -130,6 +105,5 @@ public final class ScoreboardUseCases {
         basketballGame();
         scoreCorrection();
         raceToTarget(TEN);
-        resetAndTransfer();
     }
 }

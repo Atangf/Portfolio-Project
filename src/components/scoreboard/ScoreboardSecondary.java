@@ -9,8 +9,7 @@ import java.util.Objects;
  * Implements {@code totalPoints}, {@code margin}, {@code isTied},
  * {@code leader}, {@code setHome}, {@code setGuest}, {@code toString},
  * {@code equals}, and {@code hashCode} using only {@code ScoreboardKernal}
- * methods and the Standard method {@code clear}. No method here accesses the
- * representation directly, so they work with any kernel implementation.
+ * methods and the Standard method {@code clear}.
  *
  * @author Atang Fontem
  */
