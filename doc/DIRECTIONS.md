@@ -77,12 +77,9 @@ a few sentences per question would be ideal.
 > understand software development and why?
 
 <!-- TODO: discuss -->
-I definitly understand software deveoplment better. I spent a couple weeks a couple perparing for a technial interview. And the thing we have learned in class and in the porfolio project do transpose in the real world. All the data structor and being able to create your own class is important in leetcode and any future tech job.
 
 > Also, did the portfolio project surface any gaps in your own knowledge of
 > software development. If so, what are those gaps and how did you address them?
-
-***Yes. I had gaps in understand what each interface and class purpose was and doing the project closed that gap.
 
 <!-- TODO: discuss -->
 
@@ -91,7 +88,6 @@ I definitly understand software deveoplment better. I spent a couple weeks a cou
 > is software development something you still enjoy? If not, why not?
 
 <!-- TODO: discuss -->
-I would say both. It like math for me, math is fun when I know when I'm doing it's not when I don't know what im doing. So coding has become like that when things click and I can create something fun its cool but debugging and learning new concepts is hard.
 
 > One of the challenges of completing the portfolio project is picking up a lot
 > of skills on your own. Some of these skills are, of course, software skills.
@@ -100,20 +96,17 @@ I would say both. It like math for me, math is fun when I know when I'm doing it
 > through this process?
 
 <!-- TODO: discuss -->
-Being abble to build an abstract class by scratch.
 
 > The follow-up question is: could you rephrase these skills you picked up
 > as bullet points that you could put on a resume? Try it below.
 
 <!-- TODO: discuss -->
-****
 
 > Next, how has working on this project affected your career trajectory?
 > In other words, do you now hate the topic you picked? Or, are you even more
 > interested in it? Both outcomes are valuable to your personal development.
 
 <!-- TODO: discuss -->
-No I choose to create a scoreboard because I love sports. I played basketball and ran track so it made the coding process for this more fun. I know they use physical scoreboard machinces at my old high school and AAU compitition so creating a java program to go with those machines to maybe use online or phone can use full in real world.
 
 > Finally, consider the skills you've picked up and your current career
 > trajectory. What are some things you could do to continue on your
